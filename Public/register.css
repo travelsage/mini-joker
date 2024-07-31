@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Navbar Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #333;
+}
+
+nav .logo {
+    height: 50px;
+}
+
+nav ul.navbar {
+    list-style: none;
+    word-spacing: 15%;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul.navbar li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Registration Section Styles */
+.registration {
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('./files/bgimg.jpg') no-repeat center center/cover;
+}
+
+.register-form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.register-form h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.register-form h1 span {
+    color: #ff7200;
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="tel"],
+.register-form input[type="number"],
+.register-form input[type="datetime-local"],
+.register-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.register-form h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.register-form input[type="radio"],
+.register-form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.register-form input[type="submit"] {
+    background: #ff7200;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register-form input[type="submit"]:hover {
+    background: #e65c00;
+}
+
+/* Footer Styles */
+.footer {
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 37%;
+}
+
+.footer .footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+
+.footer .footlinks h4 {
+    margin-bottom: 10px;
+}
+
+.footer .footlinks ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer .footlinks ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+.footer .footlinks .social a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footer .end {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Specific Styles */
+.register-body {
+    background-color: #f4f4f4;
+}

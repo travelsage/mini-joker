@@ -1,0 +1,23 @@
+{
+  "name": "gad-travellers",
+  "version": "1.0.0",
+  "description": "<p> A simple Destination searching website for Travellers. It allows users to search for their favourite Destination and plan the vacation accordingly. It has many packages to select from,according to their budget. It has a registration form where users can fill the basic information according to their plan. Users can subscribe to our news letter also to get updates of latest discount offers. </p>",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "install": "^0.13.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.10.3",
+    "npm": "^10.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
